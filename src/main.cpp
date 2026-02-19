@@ -59,7 +59,6 @@ void loop()
         Serial.println("Failed to read from DHT sensor!");
         return;
 
-
     }
 }
 
