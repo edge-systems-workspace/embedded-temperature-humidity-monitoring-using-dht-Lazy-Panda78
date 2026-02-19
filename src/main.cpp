@@ -28,4 +28,14 @@ DHT dht(DHTPIN, DHTTYPE);
  *
  * This function is called once by the Arduino core during boot.
  */
+void setup() {
+
+    Serial.begin(9600);
+    dht.begin();
+
+    Serial.println("DHT11 Temperature and Humidity Monitor");
+    Serial.println("System Initialized...");
+
+}
+
 
